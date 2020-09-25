@@ -1,0 +1,139 @@
+@charset utf-8;
+body,html {
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family:sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+  
+}
+/*header*/
+.header {
+	background-color: #3498CB;
+	height: 70px;
+	line-height: 70px;
+}
+.loggo {
+	color: #2C3E50;
+
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+}
+.menu {
+	float: right;
+}
+.menu a{
+	margin-right: 20px;
+	color: red;
+
+}
+.mene a, a:hover{
+	color: #2C3E50;
+}
+/*bannière*/
+.banner{
+	width: 100%;
+	max-width: 100%;
+
+} 
+.ban{
+	width: 100%;
+	max-width: 100%;
+
+
+}
+.ban img{
+		width: 100%;
+	max-width: 100%;
+}
+.inner-banner{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+
+}
+.inner-banner h1{
+	color: #fff;
+	text-shadow: 1px 1px 20px #000000;
+}
+.inner-banner .btn-costum{
+	background-color: #3498CB;
+	color: #fff;
+}
+/*about*/
+#about{
+	text-align: center;
+}
+.about article{
+	margin-top: 10%;
+}
+
+.about article h2{
+	text-align: center;
+}
+
+/*portfolio*/
+.portfolio {
+	background-color: #3498CB;
+	height: 280px;
+}
+#portfolio{
+	text-align: center;
+}
+.portfolio ,item-folio{
+	height: 288px;
+	background-color: #3498CB;
+}
+
+/*contact*/
+.footer{
+	background-color:black;
+	height: 500px; 
+	margin-top: 15px;
+}
+.footer p{
+	color: #fff;
+	text-align:  center;
+	padding-top: 5%;
+}
+#contact {
+	/*background-color: #fff;*/
+	text-align:  center;
+	color:#fff;
+
+}
+.formulairecontact{
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+
+}
+input{ 
+	margin-bottom: 20px;
+
+ }
+ input[type=text]{
+ 	height: 50px;
+ 	 width: 100px;
+ 	 border: none;
+
+ }
+ input[type=email]{
+ 	height: 50px;
+ 	 width: 100px;
+ 	 border: none;
+ }
+ textarea{
+ 		width: 500px;
+ 		height: 200px;
+ 		resize: vertical;
+ }
+btn-costum{
+	background: #2C3E50;
+	color: #fff;}
